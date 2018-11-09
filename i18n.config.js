@@ -21,15 +21,15 @@ module.exports = {
   data: {
     nav: {
       home: {
-        zh: '明殿',
+        zh: '主页',
         en: 'Home'
       },
       think: {
-        zh: '无色庵',
+        zh: '杂想',
         en: 'think'
       },
       code: {
-        zh: '宁静寺',
+        zh: '',
         en: 'code'
       },
       project: {
@@ -154,7 +154,7 @@ module.exports = {
         }
       },
       slogan: {
-        zh: '欢喜勇猛，向死而生',
+        zh: '阅读文字，感悟人性和人生',
         en: 'Talk is cheap. Show me the code'
       },
       music: {
@@ -179,7 +179,7 @@ module.exports = {
       },
       tag: {
         name: {
-          zh: '画龙点睛',
+          zh: '标签',
           en: 'Tags'
         },
         empty: {
@@ -213,19 +213,19 @@ module.exports = {
           en: 'No Result Article.'
         },
         hotlist: {
-          zh: '群贤毕至',
+          zh: '热门文章',
           en: 'hot'
         },
         loadmore: {
-          zh: '山河入梦',
+          zh: '加载更多',
           en: 'loadmore'
         },
         loading: {
-          zh: '人面桃花',
+          zh: '加载中',
           en: 'loading'
         },
         nomore: {
-          zh: '春尽江南',
+          zh: '没有更多',
           en: 'no more'
         }
       },
@@ -237,7 +237,7 @@ module.exports = {
       },
       announcement: {
         empty: {
-          zh: '空空如也',
+          zh: '暂无公告',
           en: 'No announcements.'
         }
       },
@@ -341,11 +341,11 @@ module.exports = {
           en: 'hot'
         },
         submit: {
-          zh: '发射',
+          zh: '发布',
           en: 'submit'
         },
         submiting: {
-          zh: '发射中...',
+          zh: '发布中...',
           en: 'submitinng'
         }
       }
