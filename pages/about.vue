@@ -130,7 +130,7 @@
                          rel="external nofollow noopenter">
                         <i class="iconfont icon-twitter"></i>
                       </a>
-                      <a href="https://www.facebook.com/surmon.me"
+                      <a href="https://www.facebook.com/qugushi.net"
                          target="_blank"
                          v-if="false"
                          class="facebook"

@@ -134,8 +134,8 @@ module.exports = {
     // { src: '~/plugins/particles.js', ssr: false }
   ],
   head: {
-    title: `Surmon.me - ${htmlSlogan}`,
-    titleTemplate: '%s | Surmon.me',
+    title: `Qugushi.net - ${htmlSlogan}`,
+    titleTemplate: '%s | Qugushi',
     htmlAttrs: {
       xmlns: 'http://www.w3.org/1999/xhtml',
       lang: htmlLang

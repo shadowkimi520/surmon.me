@@ -364,10 +364,10 @@
         const gravatar_url = gravatar.url(email, { 
           // size: '96', 
           // rating: 'pg',
-          // default: 'https://gravatar.surmon.me/anonymous.jpg', 
+          // default: 'https://gravatar.qugushi.net/anonymous.jpg', 
           protocol: 'https'
         });
-        return gravatar_url.replace('https://s.gravatar.com/avatar', 'https://gravatar.surmon.me')
+        return gravatar_url.replace('https://s.gravatar.com/avatar', 'https://gravatar.qugushi.net')
       },
       // 初始化本地用户即本地用户的点赞历史
       initUser() {

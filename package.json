@@ -1,11 +1,11 @@
 {
-  "name": "surmon.me",
+  "name": "qugushi.net",
   "version": "2.0.0",
-  "description": "Surmon.me blog",
+  "description": "Qugushi.net blog",
   "author": {
     "name": "Surmon",
     "email": "surmon@foxmail.com",
-    "url": "https://surmon.me"
+    "url": "https://qugushi.net"
   },
   "private": false,
   "scripts": {

@@ -77,7 +77,7 @@
     },
     computed: {
       url() {
-        return `https://surmon.me${this.$route.fullPath}`
+        return `https://qugshi.net${this.$route.fullPath}`
       },
       mobileLayout() {
         return this.$store.state.option.mobileLayout
@@ -101,12 +101,12 @@
         try {
           if (document) return document.title
         } catch (err) {
-          return 'Surmon.me'
+          return 'qugushi.net'
         }
       },
       shareWindow(social, url) {
         const targetUrl = url().includes('mailto')
-          ? url().replace(/\s|\||Surmon.me/g, '')
+          ? url().replace(/\s|\||qugushi.net/g, '')
           : encodeURI(url())
         this.$ga.social(social, '分享', targetUrl)
         /*
@@ -118,7 +118,7 @@
         *
         */
         // 给打开的窗口命名
-        const windowName = '分享 Surmon.me'
+        const windowName = '分享 qugushi.net'
         // 窗口宽度,需要设置
         const awidth = screen.availWidth / 6 * 2
         // 窗口高度,需要设置
