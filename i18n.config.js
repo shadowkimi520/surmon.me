@@ -154,7 +154,7 @@ module.exports = {
         }
       },
       slogan: {
-        zh: '阅读文字，感悟人性和人生',
+        zh: '阅读文字，感悟人性与人生',
         en: 'Talk is cheap. Show me the code'
       },
       music: {
