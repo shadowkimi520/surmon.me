@@ -5,31 +5,31 @@
         <i class="iconfont icon-home"></i>
         <span v-text="$i18n.nav.home"></span>
       </nuxt-link>
-      <nuxt-link to="/category/code" class="item">
+      <!-- <nuxt-link to="/category/code" class="item">
         <i class="iconfont icon-code"></i>
         <span v-text="$i18n.nav.code"></span>
       </nuxt-link>
       <nuxt-link to="/project" class="item">
         <i class="iconfont icon-tool"></i>
         <span v-text="$i18n.nav.project"></span>
-      </nuxt-link>
+      </nuxt-link> -->
       <nuxt-link to="/category/think" class="item">
         <i class="iconfont icon-think"></i>
         <span v-text="$i18n.nav.think"></span>
       </nuxt-link>
-      <nuxt-link to="/music" class="item">
+      <!-- <nuxt-link to="/music" class="item">
         <i class="iconfont icon-netease-music"></i>
         <span v-text="$i18n.nav.music"></span>
-      </nuxt-link>
-      <nuxt-link to="/category/movie" class="item" v-if="false">
+      </nuxt-link> -->
+      <!-- <nuxt-link to="/category/movie" class="item" v-if="false">
         <i class="iconfont icon-movie"></i>
         <span>Movie</span>
-      </nuxt-link>
+      </nuxt-link> -->
       <nuxt-link to="/about" class="item">
         <i class="iconfont icon-user"></i>
         <span v-text="$i18n.nav.about"></span>
       </nuxt-link>
-      <nuxt-link to="/service" class="item">
+      <!-- <nuxt-link to="/service" class="item">
         <i class="iconfont icon-zan"></i>
         <span v-text="$i18n.nav.service"></span>
         <span class="superscript">
@@ -64,7 +64,7 @@
       <nuxt-link to="/app" class="item app">
         <i class="iconfont icon-app"></i>
         <span v-text="$i18n.nav.app"></span>
-      </nuxt-link>
+      </nuxt-link> -->
     </nav>
   </div>
 </template>
