@@ -8,7 +8,7 @@
               <div class="desc">
                 <p class="item">
                   <i class="iconfont icon-user"></i>
-                  <span v-if="langIsEn"><span class="first-letter">I</span>'m Surmon, a (88+) (老) Javascript (油) stack (条) developer.</span>
+                  <span v-if="langIsEn"><span class="first-letter">I</span>'m Qugushi, a (88+) (老) Javascript (油) stack (条) developer.</span>
                   <span v-else>
                     <span class="first-letter">我</span>
                     <span>，灼热的青莲，</span>

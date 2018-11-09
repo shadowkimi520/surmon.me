@@ -2,10 +2,10 @@
   <aside class="aside">
     <div class="aside-user">
       <div class="avatar">
-        <img :src="gravatar" alt="Surmon">
+        <img :src="gravatar" alt="Qugushi">
       </div>
       <div class="profile">
-        <h3 class="name">Surmon</h3>
+        <h3 class="name">Qugushi</h3>
         <p class="email" v-text="$i18n.text.slogan">Talk is cheap. Show me the code</p>
       </div>
     </div>
@@ -15,27 +15,27 @@
           <i class="iconfont icon-home"></i>
           <span v-text="$i18n.nav.home">Home</span>
         </nuxt-link>
-        <nuxt-link to="/category/code" class="item">
+        <!-- <nuxt-link to="/category/code" class="item">
           <i class="iconfont icon-code"></i>
           <span v-text="$i18n.nav.code">Code</span>
         </nuxt-link>
         <nuxt-link to="/project" class="item">
           <i class="iconfont icon-tool"></i>
           <span v-text="$i18n.nav.project">Project</span>
-        </nuxt-link>
+        </nuxt-link> -->
         <nuxt-link to="/category/think" class="item">
           <i class="iconfont icon-think"></i>
           <span v-text="$i18n.nav.think">Think</span>
         </nuxt-link>
-        <nuxt-link to="/sitemap" class="item">
+        <!-- <nuxt-link to="/sitemap" class="item">
           <i class="iconfont icon-peachblossom"></i>
           <span v-text="$i18n.nav.map">Sitemap</span>
-        </nuxt-link>
+        </nuxt-link> -->
         <nuxt-link to="/about" class="item">
           <i class="iconfont icon-user"></i>
           <span v-text="$i18n.nav.about">About</span>
         </nuxt-link>
-        <nuxt-link to="/service" class="item">
+        <!-- <nuxt-link to="/service" class="item">
           <i class="iconfont icon-zan"></i>
           <span v-text="$i18n.nav.service">Service</span>
         </nuxt-link>
@@ -70,7 +70,7 @@
         <nuxt-link to="/app" class="item app">
           <i class="iconfont icon-app"></i>
           <span v-text="$i18n.nav.app">App</span>
-        </nuxt-link>
+        </nuxt-link> -->
       </nav>
     </div>
   </aside>
