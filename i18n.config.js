@@ -28,43 +28,43 @@ module.exports = {
         zh: '杂想',
         en: 'think'
       },
-      code: {
-        zh: '',
-        en: 'code'
-      },
-      project: {
-        zh: '琼宝阁',
-        en: 'project'
-      },
-      music: {
-        zh: '乐斋',
-        en: 'music'
-      },
+      // code: {
+      //   zh: '',
+      //   en: 'code'
+      // },
+      // project: {
+      //   zh: '琼宝阁',
+      //   en: 'project'
+      // },
+      // music: {
+      //   zh: '乐斋',
+      //   en: 'music'
+      // },
       about: {
-        zh: '狂浪生',
+        zh: '关于',
         en: 'about'
       },
-      service: {
-        zh: '德道',
-        en: 'service'
-      },
-      guestbook: {
-        zh: '百鸣苑',
-        en: 'Guestbook'
-      },
-      taobao: {
-        // zh: '淘宝',
-        zh: '双十一',
-        en: 'taobao'
-      },
-      aliyun: {
-        zh: '阿里云',
-        en: 'aliyun'
-      },
-      app: {
-        zh: '客户端',
-        en: 'app'
-      },
+      // service: {
+      //   zh: '德道',
+      //   en: 'service'
+      // },
+      // guestbook: {
+      //   zh: '百鸣苑',
+      //   en: 'Guestbook'
+      // },
+      // taobao: {
+      //   // zh: '淘宝',
+      //   zh: '双十一',
+      //   en: 'taobao'
+      // },
+      // aliyun: {
+      //   zh: '阿里云',
+      //   en: 'aliyun'
+      // },
+      // app: {
+      //   zh: '客户端',
+      //   en: 'app'
+      // },
       map: {
         zh: '怀柔天下',
         en: 'SiteMap.XML'
