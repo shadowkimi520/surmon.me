@@ -8,13 +8,13 @@
               <div class="desc">
                 <p class="item">
                   <i class="iconfont icon-user"></i>
-                  <span v-if="langIsEn"><span class="first-letter">I</span>'m Surmon, a (95+) (小) Javascript (鲜) stack (肉) developer.</span>
+                  <span v-if="langIsEn"><span class="first-letter">I</span>'m Surmon, a (88+) (老) Javascript (油) stack (条) developer.</span>
                   <span v-else>
                     <span class="first-letter">我</span>
                     <span>，灼热的青莲，</span>
                     <strong>独一的美</strong></span>
                 </p>
-                <p class="item">
+                <!-- <p class="item">
                   <i class="iconfont icon-comment-discussion"></i>
                   <span v-if="langIsEn">Taolu committee: </span>
                   <span v-else>国家套路委员会：</span>
@@ -22,7 +22,7 @@
                      rel="external nofollow noopenter"
                      href="https://shang.qq.com/wpa/qunwpa?idkey=837dc31ccbcd49feeba19430562be7bdc06f4428880f78a391fd61c8af714ce4">288325802</a>
                   <span>.</span>
-                </p>
+                </p> -->
                 <p class="item">
                   <i class="iconfont icon-music"></i>
                   <nuxt-link to="/music">Jazz-HipHop, Electronic, Disco, Rock, Punk.</nuxt-link>
@@ -35,7 +35,7 @@
                     <strong>酒池肉林、日夜笙歌、浪碟游蜂、五音六律、目营心匠、桀骜不羁</strong>
                   </span>
                 </p>
-                <p class="item">
+                <!-- <p class="item">
                   <i class="iconfont icon-coffee"></i>
                   <span class="accounts">
                     <span>
@@ -145,7 +145,7 @@
                       </a>
                     </span>
                   </span>
-                </p>
+                </p> -->
                 <p class="item">
                   <i class="iconfont icon-code"></i>
                   <span class="skills" v-if="langIsEn">Talk is cheap. fuck me.</span>
@@ -153,7 +153,7 @@
                     <strong>我生有涯愿无尽，心期填海力移山</strong>
                   </span>
                 </p>
-                <p class="item" v-if="!mobileLayout">
+                <!-- <p class="item" v-if="!mobileLayout">
                   <i class="iconfont icon-friend"></i>
                   <span class="friends">
                     <a href="http://skyrover.me/about" 
@@ -182,7 +182,7 @@
                        「 Tokin 」
                     </a>
                   </span>
-                </p>
+                </p> -->
               </div>
               <div class="gravatar" @click="followMe">
                 <div class="background be-2">
@@ -199,25 +199,25 @@
                 </div>
                 <img :src="gravatar" class="avatar">
                 <div class="desc">
-                  <h2 class="name"><strong>Surmon</strong></h2>
-                  <p class="skill">JS Stack Developer.</p>
+                  <h2 class="name"><strong>Qugushi</strong></h2>
+                  <p class="skill">共同编辑博客平台</p>
                 </div>
-                <a class="followme" 
+                <!-- <a class="followme" 
                    href="" 
                    @click.stop.prevent=""
                    v-if="!mobileLayout">{{ langIsEn ? 'Friend me' : '众里寻他' }}</a>
-                <div class="wechat" v-if="!mobileLayout"></div>
+                <div class="wechat" v-if="!mobileLayout"></div> -->
               </div>
             </div>
             <div class="about-map" v-if="!mobileLayout">
               <iframe src="/partials/map.html" style="width: 100%; height: 236px;"></iframe>
             </div>
-            <div class="about-project">
+            <!-- <div class="about-project">
               <nuxt-link to="/project" class="project-link">
                 <p class="title">Get More Project</p>
                 <p class="item">了解更多关于我的开源项目的进展</p>
               </nuxt-link>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
