@@ -10,7 +10,7 @@
         <span v-text="$i18n.nav.mystery"></span>
       </nuxt-link>
       <nuxt-link to="/category/fantasy" class="item">
-        <i class="iconfont icon-fantasy"></i>
+        <i class="iconfont icon-hot"></i>
         <span v-text="$i18n.nav.fantasy"></span>
       </nuxt-link>
       <nuxt-link to="/category/story" class="item">
