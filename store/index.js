@@ -273,6 +273,7 @@ export const actions = {
     return this.$axios.$get(`${API_PREFIX}/article/${params.article_id}`)
     .then(response => {
       const data = getResData(response)
+      console.log("article.category: ", data.category)
       if (resIsSuccess(response)) {
         commit('article/GET_DETAIL_SUCCESS', data)
         return Promise.resolve(data)

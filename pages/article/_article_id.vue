@@ -94,7 +94,7 @@
         <p class="item">
           <span class="title" :class="language">{{ languageIsEn ? 'Article Address:' : '永久地址：' }}</span>
           <span class="site-url" @click="copyArticleUrl">
-                <span>https://qugushi.ent/article/{{ article.id }}</span>
+                <span>https://qugushi.net/article/{{ article.id }}</span>
           </span>
         </p>
         <div class="item">
