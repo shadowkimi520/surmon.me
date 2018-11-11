@@ -30,11 +30,11 @@
         </div>
       </transition>
     </div>
-    <transition name="module" mode="out-in">
+    <!-- <transition name="module" mode="out-in">
       <div class="ad" v-if="renderAd">
         <adsense-article></adsense-article>
       </div>
-    </transition>
+    </transition> -->
     <share-box class="article-share" v-if="!fetching && article.content"></share-box>
     <transition name="module" mode="out-in">
       <div class="metas" v-if="!fetching && article.title">
@@ -196,7 +196,8 @@
         canReadMore: false,
         fullContentEd: false,
         readMoreLoading: false,
-        renderAd: true
+        // renderAd: true
+        rederAd: false
       }
     },
     components: {

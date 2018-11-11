@@ -42,11 +42,11 @@
     <div class="aside-calendar">
       <calendar></calendar>
     </div>
-    <transition name="module">
+    <!-- <transition name="module">
       <div class="aside-ad" v-if="renderAd">
         <adsense-aside></adsense-aside>
       </div>
-    </transition>
+    </transition> -->
     <div class="aside-fixed-box" :class="{ fixed: fixedMode.fixed }" v-scroll-top>
       <transition name="fade">
         <div class="aside-ad" v-show="fixedMode.fixed">
@@ -101,7 +101,8 @@
     name: 'layout-aside',
     data() {
       return {
-        renderAd: true,
+        // renderAd: true,
+        renderAd: false,
         keyword: '',
         fixedMode: {
           fixed: false,
