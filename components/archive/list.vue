@@ -9,9 +9,9 @@
     </transition>
 
     <!-- 广告啦 -->
-    <transition name="module">
+    <!-- <transition name="module">
       <component :is="mobileLayout ? 'adsense-archive-mobile' : 'adsense-archive'" v-if="renderAd"></component>
-    </transition>
+    </transition> -->
 
     <!-- 列表 -->
     <div class="article-list">
