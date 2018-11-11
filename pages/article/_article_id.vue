@@ -220,7 +220,7 @@
           return ''
         }
         const hasTags = this.tags.data && this.tags.data.length
-        if (content.length > 13688 && !this.fullContentEd) {
+        if (content.length > 33688 && !this.fullContentEd) {
           this.canReadMore = true
           let shortContent = content.substring(0, 11688)
           const lastH4Index = shortContent.lastIndexOf('\n####')
