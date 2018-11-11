@@ -48,7 +48,7 @@
       </div>
     </transition> -->
     <div class="aside-fixed-box" :class="{ fixed: fixedMode.fixed }" v-scroll-top>
-      <transition name="fade">
+      <!-- <transition name="fade">
         <div class="aside-ad" v-show="fixedMode.fixed">
           <a href="https://s.click.taobao.com/6JBRDTw"
              rel="external nofollow noopener"
@@ -57,7 +57,7 @@
             <img src="/images/mammon/aliyun-300-100.jpg" alt="aliyun-ad" />
           </a>
         </div>
-      </transition>
+      </transition> -->
       <div class="aside-tag">
         <empty-box v-if="!tag.fetching && !tag.data.data.length">
           <slot>{{ $i18n.text.tag.empty || 'No Result Tags.' }}</slot>
