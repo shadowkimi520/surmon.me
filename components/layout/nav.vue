@@ -6,7 +6,7 @@
         <span v-text="$i18n.nav.home"></span>
       </nuxt-link>
       <nuxt-link to="/category/mystery" class="item">
-        <i class="iconfont icon-mystery"></i>
+        <i class="iconfont icon-movie"></i>
         <span v-text="$i18n.nav.mystery"></span>
       </nuxt-link>
       <nuxt-link to="/category/fantasy" class="item">
@@ -14,7 +14,7 @@
         <span v-text="$i18n.nav.fantasy"></span>
       </nuxt-link>
       <nuxt-link to="/category/story" class="item">
-        <i class="iconfont icon-story"></i>
+        <i class="iconfont icon-zan"></i>
         <span v-text="$i18n.nav.story"></span>
       </nuxt-link>
       <nuxt-link to="/category/random-thought" class="item">
