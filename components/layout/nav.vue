@@ -5,17 +5,21 @@
         <i class="iconfont icon-home"></i>
         <span v-text="$i18n.nav.home"></span>
       </nuxt-link>
-      <!-- <nuxt-link to="/category/code" class="item">
-        <i class="iconfont icon-code"></i>
-        <span v-text="$i18n.nav.code"></span>
+      <nuxt-link to="/category/mystery" class="item">
+        <i class="iconfont icon-mystery"></i>
+        <span v-text="$i18n.nav.mystery"></span>
       </nuxt-link>
-      <nuxt-link to="/project" class="item">
-        <i class="iconfont icon-tool"></i>
-        <span v-text="$i18n.nav.project"></span>
-      </nuxt-link> -->
-      <nuxt-link to="/category/think" class="item">
+      <nuxt-link to="/category/fantasy" class="item">
+        <i class="iconfont icon-fantasy"></i>
+        <span v-text="$i18n.nav.fantasy"></span>
+      </nuxt-link>
+      <nuxt-link to="/category/story" class="item">
+        <i class="iconfont icon-story"></i>
+        <span v-text="$i18n.nav.story"></span>
+      </nuxt-link>
+      <nuxt-link to="/category/random-thought" class="item">
         <i class="iconfont icon-think"></i>
-        <span v-text="$i18n.nav.think"></span>
+        <span v-text="$i18n.nav['random-thought']"></span>
       </nuxt-link>
       <!-- <nuxt-link to="/music" class="item">
         <i class="iconfont icon-netease-music"></i>
