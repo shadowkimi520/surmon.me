@@ -24,10 +24,26 @@ module.exports = {
         zh: '主页',
         en: 'Home'
       },
-      think: {
-        zh: '杂想',
-        en: 'think'
+      mystery: {
+        zh: '悬疑',
+        en: 'mystery'
       },
+      fantasy: {
+        zh: '玄幻',
+        en: 'fantasy'
+      },
+      story: {
+        zh: '故事',
+        en: 'story'
+      },
+      "random-thought": {
+        zh: '杂想',
+        en: 'random-thought'
+      },
+      // think: {
+      //   zh: '杂想',
+      //   en: 'think'
+      // },
       // code: {
       //   zh: '',
       //   en: 'code'
