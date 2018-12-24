@@ -153,6 +153,7 @@ module.exports = {
       { name: 'msapplication-TileImage', content: '/static/icon.png' },
       { name: 'msapplication-TileColor', content: '#0088f5' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: "baidu_ssp_verify", content: "53482a3fda742f4278a19866b5da46fc"},
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, user-scalable=no' },
       { hid: 'keywords', name: 'keywords', content: 'VoidYuan,趣故事,二次元,人性探讨者,全栈工程师' },
       { hid: 'description', name: 'description', content: '凡心所向，素履所往，生如逆旅，一苇以航' }
